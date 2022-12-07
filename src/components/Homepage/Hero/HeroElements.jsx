@@ -39,5 +39,5 @@ export const HeroSectionRight = styled.div`
 export const HeroLogo = styled.img`
   width: 300px;
   height: 300px;
-  border-radius: 2;
+  border-radius: 5px;
 `;

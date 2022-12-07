@@ -2,13 +2,14 @@ import React from 'react';
 
 import {NavbarContainer, Nav, NavItems, NavLink, NavLogoSection, ThecyberSecurityLogo} from "./NavbarElements.jsx";
 
+import logo from '../../assets/6.png';
 
 const Navbar = () => {
     return (
         <NavbarContainer>
             <Nav>
                 <NavLogoSection>
-                    <ThecyberSecurityLogo src="src/assets/6.png" alt="Thecyber Security Logo"/>
+                    <ThecyberSecurityLogo src={logo} alt="Thecyber Security Logo"/>
                 </NavLogoSection>
                 <NavItems>
                     {[

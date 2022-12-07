@@ -1,7 +1,7 @@
 import React from 'react';
 import {HeroContainer, HeroLogo, HeroSectionLeft, HeroSectionRight} from "./HeroElements.jsx";
 import {Button, H1, H12, H6, P} from "../../Elements.jsx";
-
+import ThecyberSecurity from "../../../assets/ThecyberSecurity.png"
 const Hero = () => {
     return (
             <HeroContainer>
@@ -13,7 +13,7 @@ const Hero = () => {
                     </P>
                 </HeroSectionLeft>
                 <HeroSectionRight>
-                    <HeroLogo src="/src/assets/ThecyberSecurity.png" alt=""/>
+                    <HeroLogo src={ThecyberSecurity} alt=""/>
                 </HeroSectionRight>
             </HeroContainer>
     );

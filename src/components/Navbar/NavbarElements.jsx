@@ -19,6 +19,7 @@ export const Nav = styled.div`
 `;
 
 export const ThecyberSecurityLogo = styled.img`
+  margin-left: -20px;
   width: auto;
   height: 50px;
 `;
