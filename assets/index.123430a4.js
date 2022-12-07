@@ -96,6 +96,7 @@ Error generating stack: `+l.message+`
   width: 100%;
   max-width: 1100px;
 `,N1=I.img`
+  margin-left: -20px;
   width: auto;
   height: 50px;
 `,z1=I.div`
@@ -129,7 +130,7 @@ Error generating stack: `+l.message+`
     border-bottom: 3px solid cornflowerblue;
   }
 
-`,$1=()=>x(_1,{children:ne(T1,{children:[x(z1,{children:x(N1,{src:"src/assets/6.png",alt:"Thecyber Security Logo"})}),x(R1,{children:[{title:"Home",to:"/"},{title:"About",to:"about"},{title:"Our Services",to:"services"},{title:"Community",to:"community"},{title:"Contact Us",to:"contact"}].map((e,t)=>ne(O1,{to:e.to,children:[" ",e.title," "]},t))})]})}),L1=I.h1`
+`,$1="/assets/6.b2495758.png",L1=()=>x(_1,{children:ne(T1,{children:[x(z1,{children:x(N1,{src:$1,alt:"Thecyber Security Logo"})}),x(R1,{children:[{title:"Home",to:"/"},{title:"About",to:"about"},{title:"Our Services",to:"services"},{title:"Community",to:"community"},{title:"Contact Us",to:"contact"}].map((e,t)=>ne(O1,{to:e.to,children:[" ",e.title," "]},t))})]})}),I1=I.h1`
   font-size: 5rem;
   color: #ffffff;
 `;I.h1`
@@ -144,15 +145,15 @@ Error generating stack: `+l.message+`
   color: #ffffff;
 `;I.h6`
   color: #ffffff;
-`;const I1=I.p`
+`;const A1=I.p`
   color: #c4c4c4;
-`,A1=I.div`
+`,j1=I.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-`,j1=I.div`
+`,M1=I.div`
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -169,7 +170,7 @@ Error generating stack: `+l.message+`
     background-color: #000000;
     color: #fffdfd;
   }
-`;const M1=()=>ne(A1,{children:[x(H1,{})," ",x("br",{})," ",x("br",{}),x(Xd,{})," ",x("br",{})," ",x("br",{})]}),F1="/assets/herobg.8b765bf3.png",D1=I.div`
+`;const F1=()=>ne(j1,{children:[x(Q1,{})," ",x("br",{})," ",x("br",{}),x(Xd,{})," ",x("br",{})," ",x("br",{})]}),D1="/assets/herobg.8b765bf3.png",U1=I.div`
   display: flex;
   justify-content: center;
   width: 100%;
@@ -177,13 +178,13 @@ Error generating stack: `+l.message+`
   height: 40em;
   padding: 20px;
 `;I.div`
-  background-image: url(${F1});
+  background-image: url(${D1});
   background-color: #000;
   margin-top: 0;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-`;const U1=I.div`
+`;const B1=I.div`
   display: flex;
   width: 60%;
   max-width: 50%;
@@ -191,16 +192,16 @@ Error generating stack: `+l.message+`
   justify-content: center;
   align-items: start;
   color: #fffdfd;
-`,B1=I.div`
+`,V1=I.div`
   width: 40%;
   display: flex;
   justify-content: end;
   align-items: center;
-`,V1=I.img`
+`,H1=I.img`
   width: 300px;
   height: 300px;
-  border-radius: 2;
-`,H1=()=>ne(D1,{children:[ne(U1,{children:[x("h4",{children:"We Provide Outsourced"}),x(L1,{children:"IT Solution"}),x(I1,{children:"We are a team of highly skilled and experienced IT professionals who are passionate about providing the best IT solutions to our clients."})]}),x(B1,{children:x(V1,{src:"/src/assets/ThecyberSecurity.png",alt:""})})]});I.div`
+  border-radius: 5px;
+`,W1="/assets/ThecyberSecurity.995e2e1b.png",Q1=()=>ne(U1,{children:[ne(B1,{children:[x("h4",{children:"We Provide Outsourced"}),x(I1,{children:"IT Solution"}),x(A1,{children:"We are a team of highly skilled and experienced IT professionals who are passionate about providing the best IT solutions to our clients."})]}),x(V1,{children:x(H1,{src:W1,alt:""})})]});I.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -216,7 +217,7 @@ Error generating stack: `+l.message+`
   width: 50%;
 `;I.div`
   width: 50%;
-`;const W1=I.div`
+`;const Y1=I.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,14 +225,14 @@ Error generating stack: `+l.message+`
   width: 100%;
   max-width: 1000px;
   background: #000;
-`,Q1=I.div`
+`,K1=I.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
   margin: 20px;
-`,Y1=I.form`
+`,G1=I.form`
   display: flex;
   flex-direction: column;
 `,Ci=I.input`
@@ -240,12 +241,12 @@ Error generating stack: `+l.message+`
   justify-content: flex-start;
   align-items: center;
   border-radius: 5px;
-`,K1=I.select`
-`,G1=I.option`
+`,X1=I.select`
+`,Z1=I.option`
 
-`,sr=I.label``,X1=I.textarea`
+`,sr=I.label``,J1=I.textarea`
 
-`,Z1=I.input``,J1=()=>ne(W1,{children:["See How We Can Secure Your Assets Let\u2019s talk about how Thecyber Security can solve your cybersecurity needs. Send us an e-mail, or fill out the contact form below to get started email: info@thecyber-sec.com",x(Q1,{children:ne(Y1,{action:"",children:[x(sr,{htmlFor:"name",children:"Name:"}),x(Ci,{type:"text",name:"name",id:"name"}),x(sr,{htmlFor:"email",children:"Email:"}),x(Ci,{type:"text",name:"email",id:"email"}),x(sr,{htmlFor:"number",children:"Phone number:"}),x(Ci,{type:"text",name:"number",id:"number"}),x(sr,{htmlFor:"reason",children:"Reason for contact:"}),x(K1,{name:"reason",id:"reason",children:x(G1,{value:"php",children:"PHP"})}),x(sr,{htmlFor:"message",children:"Message:"}),x(X1,{name:"message",id:"message",cols:"30",rows:"10"}),x(Z1,{type:"submit",value:"Submit"})]})})]}),q1=I.div`
+`,q1=I.input``,b1=()=>ne(Y1,{children:["See How We Can Secure Your Assets Let\u2019s talk about how Thecyber Security can solve your cybersecurity needs. Send us an e-mail, or fill out the contact form below to get started email: info@thecyber-sec.com",x(K1,{children:ne(G1,{action:"",children:[x(sr,{htmlFor:"name",children:"Name:"}),x(Ci,{type:"text",name:"name",id:"name"}),x(sr,{htmlFor:"email",children:"Email:"}),x(Ci,{type:"text",name:"email",id:"email"}),x(sr,{htmlFor:"number",children:"Phone number:"}),x(Ci,{type:"text",name:"number",id:"number"}),x(sr,{htmlFor:"reason",children:"Reason for contact:"}),x(X1,{name:"reason",id:"reason",children:x(Z1,{value:"php",children:"PHP"})}),x(sr,{htmlFor:"message",children:"Message:"}),x(J1,{name:"message",id:"message",cols:"30",rows:"10"}),x(q1,{type:"submit",value:"Submit"})]})})]}),ev=I.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -282,10 +283,10 @@ Error generating stack: `+l.message+`
     width: 160px;
     margin-bottom: 50px;
 `,_i=I.p`
-`,Xd=()=>ne(q1,{children:[ne(Ei,{children:[x(Pi,{src:"/src/assets/Services/webapp.png"}),x(_i,{children:" Web App Penetration Testing "})]}),ne(Ei,{children:[x(Pi,{src:"/src/assets/Services/mobile.png"}),x(_i,{children:" Mobile App Penetration Testing "})]}),ne(Ei,{children:[x(Pi,{src:"/src/assets/Services/api.png"}),x(_i,{children:" API Penetration Testing "})]})]}),b1=I.footer`
+`,tv="/assets/webapp.da00eb53.png",nv="/assets/mobile.7533c143.png",rv="/assets/api.92a21d48.png",Xd=()=>ne(ev,{children:[ne(Ei,{children:[x(Pi,{src:tv}),x(_i,{children:" Web App Penetration Testing "})]}),ne(Ei,{children:[x(Pi,{src:nv}),x(_i,{children:" Mobile App Penetration Testing "})]}),ne(Ei,{children:[x(Pi,{src:rv}),x(_i,{children:" API Penetration Testing "})]})]}),ov=I.footer`
   background: #000000;
   margin-top: auto;
-`,ev=I.div`
+`,lv=I.div`
   padding: 48px 24px;
   display: flex;
   flex-direction: column;
@@ -293,14 +294,14 @@ Error generating stack: `+l.message+`
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-`,tv=I.div`
+`,iv=I.div`
   display: flex;
   justify-content: center;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
-`,nv=I.div`
+`,uv=I.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -354,11 +355,11 @@ Error generating stack: `+l.message+`
     color: cornflowerblue;
     transition: 0.3s ease-out;
   }
-`;const rv=I.div`
+`;const sv=I.div`
   max-width: 1000px;
   width: 100%;
   color: #fff;
-`,ov=I.div`
+`,av=I.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -368,10 +369,10 @@ Error generating stack: `+l.message+`
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
-`,lv=I.small`
+`,cv=I.small`
   color: #fff;
   margin-bottom: 16px;
-`,iv=I.div`
+`,fv=I.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -455,7 +456,7 @@ Error generating stack: `+l.message+`
     transition: 0.3s ease-out;
     scale: 1.2;
   }
-`;const uv=I.a`
+`;const dv=I.a`
   color: #fff;
   font-size: 24px;
 
@@ -464,7 +465,7 @@ Error generating stack: `+l.message+`
     transition: 0.3s ease-out;
     scale: 1.2;
   }
-`,sv=I(Rs)`
+`,pv=I(Rs)`
   color: #fff;
   justify-self: start;
   cursor: pointer;
@@ -480,15 +481,15 @@ Error generating stack: `+l.message+`
     scale: 1.2;
     transition: 0.3s ease-out;
   }
-`;var Zd={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},gc=Tt.createContext&&Tt.createContext(Zd),qt=globalThis&&globalThis.__assign||function(){return qt=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},qt.apply(this,arguments)},av=globalThis&&globalThis.__rest||function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols=="function")for(var o=0,r=Object.getOwnPropertySymbols(e);o<r.length;o++)t.indexOf(r[o])<0&&Object.prototype.propertyIsEnumerable.call(e,r[o])&&(n[r[o]]=e[r[o]]);return n};function Jd(e){return e&&e.map(function(t,n){return Tt.createElement(t.tag,qt({key:n},t.attr),Jd(t.child))})}function Bs(e){return function(t){return x(cv,{...qt({attr:qt({},e.attr)},t),children:Jd(e.child)})}}function cv(e){var t=function(n){var r=e.attr,o=e.size,l=e.title,i=av(e,["attr","size","title"]),u=o||n.size||"1em",s;return n.className&&(s=n.className),e.className&&(s=(s?s+" ":"")+e.className),ne("svg",{...qt({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,i,{className:s,style:qt(qt({color:e.color||n.color},n.style),e.style),height:u,width:u,xmlns:"http://www.w3.org/2000/svg"}),children:[l&&x("title",{children:l}),e.children]})};return gc!==void 0?x(gc.Consumer,{children:function(n){return t(n)}}):t(Zd)}function fv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"}}]})(e)}function dv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"}}]})(e)}function pv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}}]})(e)}const zi={twitter:"https://www.twitter.com/thecyber_sec",instagram:"https://www.instagram.com/thecyber_sec",linkedIn:"https://linkedin.com/thecyber-sec",github:"https://www.github.com/thecyber-sec",linktree:"https://linktr.ee/thecybersec",community:"https://thecyberhub.org"},hv=()=>x(b1,{children:ne(ev,{children:[x(tv,{children:ne(nv,{children:[ne(Ti,{children:[x(Ni,{children:"Pages"}),x(Ue,{to:"#",children:" About Us "}),x(Ue,{to:"#",children:" Our Terms "}),x(Ue,{to:"#",children:" Services "}),x(Ue,{to:"#",children:" Faq "}),x(Ue,{to:"#",children:" Price & Plan "})]}),ne(Ti,{children:[x(Ni,{children:"Pages"}),x(Ue,{to:"#",children:" News "}),x(Ue,{to:"#",children:" Case Study "}),x(Ue,{to:"#",children:" Contact "}),x(Ue,{to:"#",children:" 404 Page "}),x(Ue,{to:"#",children:" Membership "})]}),ne(Ti,{children:[x(Ni,{children:"Our Services"}),x(Ue,{to:"#",children:" Web App Penetration Testing "}),x(Ue,{to:"#",children:" Mobile App Penetration Testing "}),x(Ue,{to:"#",children:" API Penetration Testing "}),x(Ue,{to:"#",children:" 24/7 Online Support "})]})]})}),x(rv,{children:ne(ov,{children:[x(sv,{to:"/",children:"Thecyber Security"}),ne(lv,{children:[" \xA9 ",new Date().getFullYear()," All rights reserved."]}),ne(iv,{children:[x(vc,{href:zi.twitter,target:"_blank","aria-label":"Twitter",children:x(pv,{})}),x(vc,{href:zi.linkedIn,target:"_blank","aria-label":"Twitter",children:x(dv,{})}),x(uv,{href:zi.instagram,target:"_blank","aria-label":"Instagram",children:x(fv,{})})]})]})})]})}),mv=e=>{const t=Zr();return A.exports.useEffect(()=>{window.scrollTo(0,0)},[t]),x(Ns,{children:e.children})};var vv={cm:!0,mm:!0,in:!0,px:!0,pt:!0,pc:!0,em:!0,ex:!0,ch:!0,rem:!0,vw:!0,vh:!0,vmin:!0,vmax:!0,"%":!0};function gv(e){if(typeof e=="number")return{value:e,unit:"px"};var t,n=(e.match(/^[0-9.]*/)||"").toString();n.includes(".")?t=parseFloat(n):t=parseInt(n,10);var r=(e.match(/[^0-9]*$/)||"").toString();return vv[r]?{value:t,unit:r}:(console.warn("React Spinners: ".concat(e," is not a valid css value. Defaulting to ").concat(t,"px.")),{value:t,unit:"px"})}function wo(e){var t=gv(e);return"".concat(t.value).concat(t.unit)}var yv=function(e,t,n){var r="react-spinners-".concat(e,"-").concat(n);if(typeof window>"u"||!window.document)return r;var o=document.createElement("style");document.head.appendChild(o);var l=o.sheet,i=`
+`;var Zd={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},gc=Tt.createContext&&Tt.createContext(Zd),qt=globalThis&&globalThis.__assign||function(){return qt=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},qt.apply(this,arguments)},hv=globalThis&&globalThis.__rest||function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols=="function")for(var o=0,r=Object.getOwnPropertySymbols(e);o<r.length;o++)t.indexOf(r[o])<0&&Object.prototype.propertyIsEnumerable.call(e,r[o])&&(n[r[o]]=e[r[o]]);return n};function Jd(e){return e&&e.map(function(t,n){return Tt.createElement(t.tag,qt({key:n},t.attr),Jd(t.child))})}function Bs(e){return function(t){return x(mv,{...qt({attr:qt({},e.attr)},t),children:Jd(e.child)})}}function mv(e){var t=function(n){var r=e.attr,o=e.size,l=e.title,i=hv(e,["attr","size","title"]),u=o||n.size||"1em",s;return n.className&&(s=n.className),e.className&&(s=(s?s+" ":"")+e.className),ne("svg",{...qt({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,i,{className:s,style:qt(qt({color:e.color||n.color},n.style),e.style),height:u,width:u,xmlns:"http://www.w3.org/2000/svg"}),children:[l&&x("title",{children:l}),e.children]})};return gc!==void 0?x(gc.Consumer,{children:function(n){return t(n)}}):t(Zd)}function vv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"}}]})(e)}function gv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"}}]})(e)}function yv(e){return Bs({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"}}]})(e)}const zi={twitter:"https://www.twitter.com/thecyber_sec",instagram:"https://www.instagram.com/thecyber_sec",linkedIn:"https://linkedin.com/thecyber-sec",github:"https://www.github.com/thecyber-sec",linktree:"https://linktr.ee/thecybersec",community:"https://thecyberhub.org"},wv=()=>x(ov,{children:ne(lv,{children:[x(iv,{children:ne(uv,{children:[ne(Ti,{children:[x(Ni,{children:"Pages"}),x(Ue,{to:"#",children:" About Us "}),x(Ue,{to:"#",children:" Our Terms "}),x(Ue,{to:"#",children:" Services "}),x(Ue,{to:"#",children:" Faq "}),x(Ue,{to:"#",children:" Price & Plan "})]}),ne(Ti,{children:[x(Ni,{children:"Pages"}),x(Ue,{to:"#",children:" News "}),x(Ue,{to:"#",children:" Case Study "}),x(Ue,{to:"#",children:" Contact "}),x(Ue,{to:"#",children:" 404 Page "}),x(Ue,{to:"#",children:" Membership "})]}),ne(Ti,{children:[x(Ni,{children:"Our Services"}),x(Ue,{to:"#",children:" Web App Penetration Testing "}),x(Ue,{to:"#",children:" Mobile App Penetration Testing "}),x(Ue,{to:"#",children:" API Penetration Testing "}),x(Ue,{to:"#",children:" 24/7 Online Support "})]})]})}),x(sv,{children:ne(av,{children:[x(pv,{to:"/",children:"Thecyber Security"}),ne(cv,{children:[" \xA9 ",new Date().getFullYear()," All rights reserved."]}),ne(fv,{children:[x(vc,{href:zi.twitter,target:"_blank","aria-label":"Twitter",children:x(yv,{})}),x(vc,{href:zi.linkedIn,target:"_blank","aria-label":"Twitter",children:x(gv,{})}),x(dv,{href:zi.instagram,target:"_blank","aria-label":"Instagram",children:x(vv,{})})]})]})})]})}),Sv=e=>{const t=Zr();return A.exports.useEffect(()=>{window.scrollTo(0,0)},[t]),x(Ns,{children:e.children})};var xv={cm:!0,mm:!0,in:!0,px:!0,pt:!0,pc:!0,em:!0,ex:!0,ch:!0,rem:!0,vw:!0,vh:!0,vmin:!0,vmax:!0,"%":!0};function kv(e){if(typeof e=="number")return{value:e,unit:"px"};var t,n=(e.match(/^[0-9.]*/)||"").toString();n.includes(".")?t=parseFloat(n):t=parseInt(n,10);var r=(e.match(/[^0-9]*$/)||"").toString();return xv[r]?{value:t,unit:r}:(console.warn("React Spinners: ".concat(e," is not a valid css value. Defaulting to ").concat(t,"px.")),{value:t,unit:"px"})}function wo(e){var t=kv(e);return"".concat(t.value).concat(t.unit)}var Cv=function(e,t,n){var r="react-spinners-".concat(e,"-").concat(n);if(typeof window>"u"||!window.document)return r;var o=document.createElement("style");document.head.appendChild(o);var l=o.sheet,i=`
     @keyframes `.concat(r,` {
       `).concat(t,`
     }
-  `);return l&&l.insertRule(i,0),r},il=globalThis&&globalThis.__assign||function(){return il=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},il.apply(this,arguments)},wv=globalThis&&globalThis.__rest||function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols=="function")for(var o=0,r=Object.getOwnPropertySymbols(e);o<r.length;o++)t.indexOf(r[o])<0&&Object.prototype.propertyIsEnumerable.call(e,r[o])&&(n[r[o]]=e[r[o]]);return n},Sv=yv("ScaleLoader","0% {transform: scaley(1.0)} 50% {transform: scaley(0.4)} 100% {transform: scaley(1.0)}","scale");function xv(e){var t=e.loading,n=t===void 0?!0:t,r=e.color,o=r===void 0?"#000000":r,l=e.speedMultiplier,i=l===void 0?1:l,u=e.cssOverride,s=u===void 0?{}:u,a=e.height,h=a===void 0?35:a,m=e.width,p=m===void 0?4:m,w=e.radius,g=w===void 0?2:w,S=e.margin,T=S===void 0?2:S,f=wv(e,["loading","color","speedMultiplier","cssOverride","height","width","radius","margin"]),c=il({display:"inherit"},s),d=function(y){return{backgroundColor:o,width:wo(p),height:wo(h),margin:wo(T),borderRadius:wo(g),display:"inline-block",animation:"".concat(Sv," ").concat(1/i,"s ").concat(y*.1,"s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08)"),animationFillMode:"both"}};return n?ne("span",{...il({style:c},f),children:[x("span",{style:d(1)}),x("span",{style:d(2)}),x("span",{style:d(3)}),x("span",{style:d(4)}),x("span",{style:d(5)})]}):null}const kv=I.div`
+  `);return l&&l.insertRule(i,0),r},il=globalThis&&globalThis.__assign||function(){return il=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++){t=arguments[n];for(var o in t)Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o])}return e},il.apply(this,arguments)},Ev=globalThis&&globalThis.__rest||function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols=="function")for(var o=0,r=Object.getOwnPropertySymbols(e);o<r.length;o++)t.indexOf(r[o])<0&&Object.prototype.propertyIsEnumerable.call(e,r[o])&&(n[r[o]]=e[r[o]]);return n},Pv=Cv("ScaleLoader","0% {transform: scaley(1.0)} 50% {transform: scaley(0.4)} 100% {transform: scaley(1.0)}","scale");function _v(e){var t=e.loading,n=t===void 0?!0:t,r=e.color,o=r===void 0?"#000000":r,l=e.speedMultiplier,i=l===void 0?1:l,u=e.cssOverride,s=u===void 0?{}:u,a=e.height,h=a===void 0?35:a,m=e.width,p=m===void 0?4:m,w=e.radius,g=w===void 0?2:w,S=e.margin,T=S===void 0?2:S,f=Ev(e,["loading","color","speedMultiplier","cssOverride","height","width","radius","margin"]),c=il({display:"inherit"},s),d=function(y){return{backgroundColor:o,width:wo(p),height:wo(h),margin:wo(T),borderRadius:wo(g),display:"inline-block",animation:"".concat(Pv," ").concat(1/i,"s ").concat(y*.1,"s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08)"),animationFillMode:"both"}};return n?ne("span",{...il({style:c},f),children:[x("span",{style:d(1)}),x("span",{style:d(2)}),x("span",{style:d(3)}),x("span",{style:d(4)}),x("span",{style:d(5)})]}):null}const Tv=I.div`
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-`,Cv=({loading:e,key:t})=>x("div",{children:x(kv,{children:x(xv,{color:"#009eff",loading:e,size:50},t)})}),Ev=()=>{const[e,t]=A.exports.useState(!1);A.exports.useEffect(()=>{t(!0),setTimeout(()=>{t(!1)},0)},[]);const[n,r]=A.exports.useState(!1);return x(j1,{children:e?x(Cv,{}):ne(Ns,{children:[x("nav",{children:x($1,{toggle:()=>r(!n)})}),x(mv,{children:ne(w0,{children:[x($o,{index:!0,exact:!0,path:"/",element:x(M1,{})}),x($o,{exact:!0,path:"/services",element:x(Xd,{})}),x($o,{exact:!0,path:"/contact",element:x(J1,{})})]})}),x(hv,{})]})})};Oi.createRoot(document.getElementById("root")).render(x(Tt.StrictMode,{children:x(E0,{children:x(Ev,{})})}));
+`,Nv=({loading:e,key:t})=>x("div",{children:x(Tv,{children:x(_v,{color:"#009eff",loading:e,size:50},t)})}),zv=()=>{const[e,t]=A.exports.useState(!1);A.exports.useEffect(()=>{t(!0),setTimeout(()=>{t(!1)},0)},[]);const[n,r]=A.exports.useState(!1);return x(M1,{children:e?x(Nv,{}):ne(Ns,{children:[x("nav",{children:x(L1,{toggle:()=>r(!n)})}),x(Sv,{children:ne(w0,{children:[x($o,{index:!0,exact:!0,path:"/",element:x(F1,{})}),x($o,{exact:!0,path:"/services",element:x(Xd,{})}),x($o,{exact:!0,path:"/contact",element:x(b1,{})})]})}),x(wv,{})]})})};Oi.createRoot(document.getElementById("root")).render(x(Tt.StrictMode,{children:x(E0,{children:x(zv,{})})}));
