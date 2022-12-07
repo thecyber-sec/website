@@ -30,7 +30,7 @@ const ContactForm = () => {
             </ContentP>
 
             <ContactFormCard>
-                <ContactFormSection action="">
+                <ContactFormSection action="mailto:info@thecyber-sec.com">
                     <Cover>
                         <CoverLeft>
                             <ContactFormLabel htmlFor="name"><PersonIcon/></ContactFormLabel>
