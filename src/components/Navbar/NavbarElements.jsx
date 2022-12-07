@@ -41,8 +41,11 @@ export const NavItems = styled.div`
   justify-content: space-between;
   list-style: none;
   height: 80px;
-
+  
+  @media screen and (max-width: 850px) {
+    display: none;
 `;
+
 export const NavLink = styled(RouterLink)`
   font-family: 'Roboto', sans-serif;
   color: #fff;
@@ -52,6 +55,7 @@ export const NavLink = styled(RouterLink)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
   &:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.05);

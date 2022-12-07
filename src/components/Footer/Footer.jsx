@@ -74,7 +74,7 @@ const Footer = () => {
 
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Pages</FooterLinkTitle>
+                            <FooterLinkTitle>   </FooterLinkTitle>
                             <FooterRouterLink to="#"> News </FooterRouterLink>
                             <FooterRouterLink to="#"> Case Study </FooterRouterLink>
                             <FooterRouterLink to="#"> Contact </FooterRouterLink>

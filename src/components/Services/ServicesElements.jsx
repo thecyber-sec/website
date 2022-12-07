@@ -2,13 +2,24 @@ import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #000;
   padding: 0 30px;
-  height: 40em;
   width: 100%;
+  
+`;
+
+export const ServicesCardContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const ServicesCard = styled.div`
@@ -37,9 +48,10 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesImg = styled.img`
-    height: 160px;
-    width: 160px;
-    margin-bottom: 50px;
+  height: 160px;
+  width: 160px;
+  margin-bottom: 50px;
 `;
+
 export const ServicesTxt = styled.p`
 `;

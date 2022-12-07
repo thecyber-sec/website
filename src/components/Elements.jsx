@@ -6,6 +6,7 @@ export const H12 = styled.h1`
 `;
 export const H1 = styled.h1`
   color: #ffffff;
+  font-family: "Fira Code Medium", monospace;
 `;
 export const H2 = styled.h2`
   color: #ffffff;

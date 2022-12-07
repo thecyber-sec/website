@@ -10,7 +10,7 @@ const Homepage = () => {
             {/*Feedbacks <br/> <br/>*/}
             {/*News & Insights <br/> <br/>*/}
             {/*<SampleReport/>*/}
-            {/*<ContactForm />*/}
+            <ContactForm />
         </Container>
     );
 };

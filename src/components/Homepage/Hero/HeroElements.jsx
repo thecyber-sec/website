@@ -8,6 +8,14 @@ export const HeroContainer = styled.div`
   max-width: 1200px;
   height: 40em;
   padding: 20px;
+  flex-direction: row;
+  margin: 50px auto;
+  
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    height: 80em;
+  }
 `;
 
 export const BGImg = styled.div`
@@ -30,10 +38,19 @@ export const HeroSectionLeft = styled.div`
 `;
 
 export const HeroSectionRight = styled.div`
-  width: 40%;
   display: flex;
   justify-content: end;
+
+  width: 40%;
   align-items: center;
+
+  @media screen and (max-width: 850px) {
+    margin: 50px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
 `;
 
 export const HeroLogo = styled.img`
